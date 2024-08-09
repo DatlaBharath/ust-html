@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #E3FDFD;
+}
+.title{
+    margin-left: 30px;
+    font-size: 65px;
+}
+.grey-qo-regular {
+    font-family: "Grey Qo", cursive;
+    font-weight: 800;
+    font-style: normal;
+  }
+.julius-sans-one-regular {
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.foldit {
+    font-family: "Foldit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+  .pmr {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .pdu {
+    font-family: "Playwrite DK Uloopet", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .hrff {
+    font-family: "Hind", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .sgff {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .urff {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .mrff {
+    font-family: "Margarine", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  

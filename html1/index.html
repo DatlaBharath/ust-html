@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Tags</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>U</td>
+            <td><ul type="square"><li> </li></ul></td>
+        </tr>
+        <tr>
+            <td>S</td>
+            <td>&emsp; T</td>
+        </tr>
+    </table>
+    <table border="1px">
+        <tr>
+            <th><a href="#theory">Theory</a></th>
+            <th><a href="#basics">Basics</a></th>
+            <th><a href="#list">List</a></th>
+            <th><a href="#media">Media</a></th>
+            <th><a href="#container">Container</a></th>
+        </tr>
+        <tr id="theory">
+            <td colspan="5"><center>Theory</center></td>
+        </tr>
+        <tr>
+            <td>Container tags do not have their own content eg., table , body , </td>
+            <td>standalone tags dont nedd to closed they should self closed ex :
+                &lt;br/&gt;
+            </td>
+            <td>Content tags which must be opend and closed the middle is content</td>
+            <td>Parent and child tags ex : table and tr td</td>
+            <td>tags have attributes ex : style, height , class, id</td>
+        </tr>
+        <tr id="basics">
+            <td colspan="5"><center>Basic Tags</center></td>
+        </tr>
+        <tr>
+            <td>
+                <table border="1px" width="100%" style="text-align: center;">
+                    <tr>
+                        <td>
+                            
+                            <h1>h1</h1>
+                        </td>
+                        <td>
+                            &lt;h2&gt;h2&lt;/h2&gt; :
+                            <h2>h2</h2>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &lt;h3&gt;h3&lt;/h3&gt; :
+                            <h3>h3</h3>
+                        </td>
+                        <td>
+                            &lt;h4&gt;h4&lt;/h4&gt; :
+                            <h4>h4</h4>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &lt;h5&gt;h5&lt;/h5&gt; :
+                            <h5>h5</h5>
+                        </td>
+                        <td>
+                            &lt;h6&gt;h6&lt;/h6&gt; :
+                            <h6>h6</h6>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td>Text formating tags :
+                <div>&lt;strong&gt;&lt;/strong&gt; : <strong>Strong</strong></div>
+                <div>&lt;em&gt;&lt;/em&gt; : <em>Emphasis</em></div>
+                <div>&lt;strike&gt;&lt;/strike&gt; : <Strike>Strike</Strike></div>
+                <div>&lt;u&gt;&lt;/u&gt; : <u>underline</u></div>
+                <div>X&lt;sub&gt;a&lt;/sub&gt;&lt;sup&gt;b&lt;/sup&gt; : X<sub>a</sub><sup>b</sup> </div>
+
+            </td>
+            <td>
+                <div>&lt;q&gt;&lt;/q&gt; <q>Quotes I am a Trillionair</q> <cite>Anil</cite></div>
+            </td>
+            <td>&lt;p&gt;&lt;/p&gt; : <p> this is a paragraph tag</p>
+            </td>
+            <td>&lt;a href=""&gt;&lt;/a&gt; : <a href="https://www.google.com/"> LINK</a></td>
+        </tr>
+        <tr id="list">
+            <td colspan="5"><center>List Tags</center></td>
+        </tr>
+        <tr>
+            <td>
+                Ordered List 
+                &lt;ol&gt;&lt;/ol&gt; <br><br>
+                &lt;ol&gt;<br>&emsp;&lt;li&gt;bharath&lt;/li&gt;<br>&emsp;&lt;li&gt;kausthub&lt;/li&gt;<br>&lt;/ol&gt;
+                <ol>
+                    <li>bharath</li>
+                    <li>kausthub</li>
+                </ol>
+            </td>
+            <td>
+                Unordered List 
+                &lt;ul&gt;&lt;/ul&gt; <br><br>
+                &lt;ul&gt;<br>&emsp;&lt;li&gt;atul&lt;/li&gt;<br>&emsp;&lt;li&gt;niraj&lt;/li&gt;<br>&lt;/ul&gt;
+                <ul>
+                    <li>atul</li>
+                    <li>niraj</li>
+                </ul>
+            </td>
+            <td>
+                Roman List
+                in ol attribute type = "i" <br><br>
+                &lt;ol type="i"&gt;<br>&emsp;&lt;li&gt;sns&lt;/li&gt;<br>&emsp;&lt;li&gt;beanstalk&lt;/li&gt;<br>&lt;/ol&gt;
+                <ol type="i">
+                    <li>sns</li>
+                    <li>beanstalk</li>
+                </ol>
+            </td>
+            <td>
+                Square List
+                in ul attribute type = "square" <br><br>
+                &lt;ul type="square"&gt;<br>&emsp;&lt;li&gt;circle&lt;/li&gt;<br>&emsp;&lt;li&gt;rectangle&lt;/li&gt;<br>&lt;/ul&gt;
+                <ul type="square">
+                    <li>circle</li>
+                    <li>rectangle</li>
+                </ul>
+            </td>
+            <td>
+                In ol attribute type = "A"
+                <ol type="A">
+                    <li>sns</li>
+                    <li>bean<span style="color: rgb(1, 97, 60);">stalk</span></li>
+                </ol>
+                Definition list it's a list of word and its Definition <br>
+                &lt;dl&gt;<br>&emsp;&lt;dt&gt;Word&lt;/dt&gt;<br>&emsp;&lt;dd&gt;It's Definition&lt;/dd&gt;<br>&lt;/dl&gt;
+                <dl>
+                    <dt>tek hai</dt>
+                    <dd>It means i am fine</dd>
+                </dl>
+            </td>
+        </tr>
+        <tr id="media">
+            <td colspan="5"><center>Media Tags</center></td>
+        </tr>
+        <tr>
+            <td>&lt;img src="" alt="" /&gt; : <img src="https://cdn-icons-png.flaticon.com/512/17440/17440580.png"
+                    width="20px" alt="Image" /></td>
+            <td>&lt;video src=""&gt;&lt;/video&gt; :
+                <video width="150px" poster="shanks.jpg" loop src="shanks.mp4" controls muted>>
+                </video>
+            </td>
+            <td>
+                &lt;audio src=""&gt;&lt;/audio&gt;<audio src="shanks.mp4" controls width="150px"></audio>
+            </td>
+            <td>
+                &lt;iframe src="" frameborder="0"&gt;&lt;/iframe&gt; :
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15782.621973352261!2d76.88116475000001!3d8.5327872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05be8e294304bd%3A0xfad5b029b19d85d3!2sUST%2C%20Thiruvananthapuram!5e0!3m2!1sen!2sin!4v1723011360409!5m2!1sen!2sin"
+                    width="150" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </td>
+            <td>
+                <figure>
+                    <img src="shanks.jpg" width="150px" alt="" srcset="">
+                    <center>
+                        <figcaption>Shanks</figcaption>
+                    </center>
+                </figure>
+            </td>
+        </tr>
+        <tr id="container">
+            <td colspan="5"><center>Container Tags</center></td>
+        </tr>
+        <tr>
+            <td>
+                <dl>
+                    <dt>Div Tag</dt>
+                    <dd>
+                        <ol type="i">
+                            <li>Block-level element: It creates a block that visually isolates a section of a document on the page.</li>
+                            <li>Can contain other block-level components (e.g., headings, paragraphs, lists).</li>
+                            <li>Typically used to wrap larger sections of content (e.g., headers, footers, sidebars).</li>
+                        </ol>
+                    </dd>
+                </dl>
+                <div class="container">
+                    <div>
+                        <div>1</div>
+                        <div>2</div>
+                        <div>3</div>
+                    </div>
+                    <div>
+                        <div>4</div>
+                        <div>5</div>
+                        <div>6</div>
+                    </div>
+                    <div>
+                        <div>7</div>
+                        <div>8</div>
+                        <div>9</div>
+                    </div>
+                </div>
+            </td>
+            <td>Span Tag
+                <span class="container">
+                    <span>
+                        <span>1</span>
+                        <span>2</span>
+                        <span>3</span>
+                    </span>
+                    <span>
+                        <span>4</span>
+                        <span>5</span>
+                        <span>6</span>
+                    </span>
+                    <span>
+                        <span>7</span>
+                        <span>8</span>
+                        <span>9</span>
+                    </span>
+                </span>
+            </td>
+            <td>
+                <center>
+                    <head>
+                        <span>Vizag</span>
+                        <nav style="width: fit-content;">
+                            <ul>
+                                <li><a href="http://">click</a></li>
+                                <li><a href="http://">click</a></li>
+                                <li><a href="http://">click</a></li>
+                            </ul>
+                        </nav>
+                    </head>
+                </center>
+            </td>
+            
+            <td colspan="2" style="padding: 25px;">
+                <header>
+                    <h4>
+                        <span>Vizag</span>
+                        <nav style="width: fit-content;">
+                            <ul>
+                                <li><a href="http://">click</a></li>
+                                <li><a href="http://">click</a></li>
+                                <li><a href="http://">click</a></li>
+                            </ul>
+                        </nav>
+                    </h4>
+                </header>
+            <main>
+                <section>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nobis alias totam accusantium neque fugit!
+                        <aside>hello</aside>
+                        <aside>hello</aside>
+                    </p>
+                </section>
+                <section>
+                    <p>
+                        Minima modi explicabo, cupiditate debitis porro perspiciatis eaque voluptatum voluptatem quasi recusandae maxime aliquid atque.
+                        <aside>hello</aside>
+                        <aside>hello</aside>
+                    </p>
+                </section>
+                <section>
+                    <p>
+                        Veniam mollitia numquam dolores consectetur modi, voluptatem harum vero tempora, unde iste ab quam recusandae.
+                        <aside>hello</aside>
+                        <aside>hello</aside>
+                    </p>
+                </section>
+            </main>
+            <footer>
+                <p></p>
+                <ul>
+                    <li><a href="http://">click1</a></li>
+                    <li><a href="http://">click2</a></li>
+                </ul>
+            </footer>
+        </td>
+        </tr>
+        <tr>
+            <th colspan="5">Inputs</th>
+        </tr>
+        <tr>
+            <td><input type="text"></td>
+            <td><input type="number"></td>
+            <td><input type="date"></td>
+            <td><input type="time"></td>
+            <td><input type="password"></td>
+        </tr>
+        <tr>
+            <td><input type="range"></td>
+            <td><input type="color"></td>
+            <td><input type="email"></td>
+            <td><input type="search"></td>
+            <td><input type="file"></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox">mtech <input type="checkbox">ms <input type="checkbox">upse </td>
+            <td><input type="radio" name="grad">btech <input type="radio" name="grad">bsc <input type="radio"  name="grad">bcom </td>
+            <td><select name="selction" id="">
+                <options value="op1">op1</options>
+                <options value="op2">op2</options>
+                <options value="op3">op3</options>
+                <options value="op4">op4</options>
+                <options value="op5">op5</options>
+                <options value="op6">op6</options>
+                <options value="op7">op7</options>
+                <options value="op8">op8</options>
+            </select></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+    </table>
+    <ol>
+        <li>ReCreate EveryThing Using Div Tags</li>
+        <li>Create Your Own Website with Symantic Tags</li>
+        <li>CSS - Basics We will Understand</li>
+    </ol>
+</body>
+</html>

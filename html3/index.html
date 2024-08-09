@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The HTML TAGS REF</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="rowsvn nav">
+        <div class="col nobgh">
+            <div class="row">
+                <div class="inline">U</div>
+                <div class="inline">&blacksquare;</div>
+            </div>
+            <div class="row">
+                <div class="inline">S</div>
+                <div class="inline">T</div>
+            </div>
+        </div>
+        <div class="col nobgh"><a href="#theory">Theory</a></div>
+        <div class="col nobgh"><a href="#basics">Basics</a></div>
+        <div class="col nobgh"><a href="#list">List</a></div>
+        <div class="col nobgh"><a href="#media">Media</a></div>
+        <div class="col nobgh"><a href="#container">Container</a></div>
+        <div class="col nobgh"><a href="#input">Input</a></div>
+    </div>
+<div class="container">
+    <div class="bg-red">
+        <center><h2 id="theory">Theory</h2></center>
+    </div>
+    <div class="row bg-orange">
+        <div class="col">Container tags do not have their own content eg., table , body ,</div>
+        <div class="col">standalone tags dont nedd to closed they should self closed ex :
+            &lt;br/&gt;</div>
+        <div class="col">Content tags which must be opend and closed the middle is content</div>
+        <div class="col">Parent and child tags ex : table and tr div</div>
+        <div class="col">tags have attributes ex : style, height , class, id</div>
+    </div>
+    <div class="bg-yellow">
+        <center><h2 id="basics">Basics</h2></center>
+    </div>
+    <div class="row2 bg-green">
+        <div class="col">
+            <div class="rowtre">
+                <div class="col nobg">
+                    &lt;h1&gt;h1&lt;/h1&gt;:
+                    <h1 class="inline">h1</h1>
+                </div>
+                <div class="col nobg">
+                    &lt;h2&gt;h2&lt;/h2&gt;:
+                    <h2 class="inline">h2</h2>
+                </div>
+                <div class="col nobg">
+                    &lt;h3&gt;h3&lt;/h3&gt;:
+                    <h3 class="inline">h3</h3>
+                </div>
+            </div>
+            <div class="rowtre">
+                <div class="col nobg">
+                    &lt;h4&gt;h4&lt;/h4&gt;:
+                    <h4 class="inline">h4</h4>
+                </div>
+                <div class="col nobg">
+                    &lt;h5&gt;h5&lt;/h5&gt;:
+                    <h5 class="inline">h5</h5>
+                </div>
+                <div class="col nobg">
+                    &lt;h6&gt;h6&lt;/h6&gt;:
+                    <h6 class="inline">h6</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div>&lt;strong&gt;&lt;/strong&gt; : <strong>Strong</strong></div>
+                <div>&lt;em&gt;&lt;/em&gt; : <em>Emphasis</em></div>
+                <div>&lt;strike&gt;&lt;/strike&gt; : <Strike>Strike</Strike></div>
+                <div>&lt;u&gt;&lt;/u&gt; : <u>underline</u></div>
+                <div>X&lt;sub&gt;a&lt;/sub&gt;&lt;sup&gt;b&lt;/sup&gt; : X<sub>a</sub><sup>b</sup> </div>
+        </div>
+        <div class="col"><div>&lt;q&gt;&lt;/q&gt; <q>Quotes I am a Trillionair</q> <cite>Anil</cite></div></div>
+        <div class="col">&lt;p&gt;&lt;/p&gt; : <p> this is a paragraph tag</p> <div>&lt;a href=""&gt;&lt;/a&gt; : <a href="https://www.google.com/"> LINK</a></div></div>
+    </div>
+    <div class="bg-blue">
+        <center><h2 id="list">Lists</h2></center>
+    </div>
+    <div class="row bg-indigo">
+        <div class="col">
+            Ordered List 
+                &lt;ol&gt;&lt;/ol&gt; <br><br>
+                &lt;ol&gt;<br>&emsp;&lt;li&gt;bharath&lt;/li&gt;<br>&emsp;&lt;li&gt;kausthub&lt;/li&gt;<br>&lt;/ol&gt;
+                <ol>
+                    <li>bharath</li>
+                    <li>kausthub</li>
+                </ol>
+        </div>
+        <div class="col">
+            Unordered List 
+            &lt;ul&gt;&lt;/ul&gt; <br><br>
+            &lt;ul&gt;<br>&emsp;&lt;li&gt;atul&lt;/li&gt;<br>&emsp;&lt;li&gt;niraj&lt;/li&gt;<br>&lt;/ul&gt;
+            <ul>
+                <li>atul</li>
+                <li>niraj</li>
+            </ul>
+        </div>
+        <div class="col">
+            Roman List
+                in ol attribute type = "i" <br><br>
+                &lt;ol type="i"&gt;<br>&emsp;&lt;li&gt;sns&lt;/li&gt;<br>&emsp;&lt;li&gt;beanstalk&lt;/li&gt;<br>&lt;/ol&gt;
+                <ol type="i">
+                    <li>sns</li>
+                    <li>beanstalk</li>
+                </ol>
+        </div>
+        <div class="col">
+            Square List
+                in ul attribute type = "square" <br><br>
+                &lt;ul type="square"&gt;<br>&emsp;&lt;li&gt;circle&lt;/li&gt;<br>&emsp;&lt;li&gt;rectangle&lt;/li&gt;<br>&lt;/ul&gt;
+                <ul type="square">
+                    <li>circle</li>
+                    <li>rectangle</li>
+                </ul>
+        </div>
+        <div class="col">
+            In ol attribute type = "A"
+                <ol type="A">
+                    <li>sns</li>
+                    <li>bean<span style="color: rgb(1, 97, 60);">stalk</span></li>
+                </ol>
+                Definition list it's a list of word and its Definition <br>
+                &lt;dl&gt;<br>&emsp;&lt;dt&gt;Word&lt;/dt&gt;<br>&emsp;&lt;dd&gt;It's Definition&lt;/dd&gt;<br>&lt;/dl&gt;
+                <dl>
+                    <dt>tek hai</dt>
+                    <dd>It means i am fine</dd>
+                </dl>
+        </div>
+    </div>
+    <div class="bg-violet">
+        <center><h2 id="media">Media</h2></center>
+    </div>
+    <div class="row bg-red">
+        <div class="col">&lt;img src="" alt="" /&gt; : <img src="https://cdn-icons-png.flaticon.com/512/17440/17440580.png"
+            width="100px" alt="Image" /></div>
+        <div class="col">
+            &lt;video src=""&gt;&lt;/video&gt; :
+                <video width="150px" poster="shanks.jpg" loop src="shanks.mp4" controls muted>>
+                </video>
+        </div>
+        <div class="col">&lt;audio src=""&gt;&lt;/audio&gt;<audio src="shanks.mp4" controls width="150px"></audio></div>
+        <div class="col">&lt;iframe src="" frameborder="0"&gt;&lt;/iframe&gt; :
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15782.621973352261!2d76.88116475000001!3d8.5327872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05be8e294304bd%3A0xfad5b029b19d85d3!2sUST%2C%20Thiruvananthapuram!5e0!3m2!1sen!2sin!4v1723011360409!5m2!1sen!2sin"
+                width="150" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        <div class="col">
+            <figure>
+                <img src="shanks.jpg" width="150px" alt="" srcset="">
+                <center>
+                    <figcaption>Shanks</figcaption>
+                </center>
+            </figure>
+        </div>
+    </div>
+    <div class="bg-orange">
+        <center><h2 id="container">Container</h2></center>
+    </div>
+    <div class="row3 bg-yellow">
+        <div class="col">
+            <dl>
+                <dt>Div Tag</dt>
+                <dd>
+                    <ol type="i">
+                        <li>Block-level element: It creates a block that visually isolates a section of a document on the page.</li>
+                        <li>Can contain other block-level components (e.g., headings, paragraphs, lists).</li>
+                        <li>Typically used to wrap larger sections of content (e.g., headers, footers, sidebars).</li>
+                    </ol>
+                </dd>
+            </dl>
+            <div class="container">
+                <div>
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                </div>
+                <div>
+                    <div>4</div>
+                    <div>5</div>
+                    <div>6</div>
+                </div>
+                <div>
+                    <div>7</div>
+                    <div>8</div>
+                    <div>9</div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            Span Tag
+                <span class="container">
+                    <span>
+                        <span>1</span>
+                        <span>2</span>
+                        <span>3</span>
+                    </span>
+                    <span>
+                        <span>4</span>
+                        <span>5</span>
+                        <span>6</span>
+                    </span>
+                    <span>
+                        <span>7</span>
+                        <span>8</span>
+                        <span>9</span>
+                    </span>
+                </span>
+            <center>
+                <head>
+                    <span>Vizag</span>
+                    <nav>
+                        <ul>
+                            <li><a href="http://">click</a></li>
+                            <li><a href="http://">click</a></li>
+                            <li><a href="http://">click</a></li>
+                        </ul>
+                    </nav>
+                </head>
+            </center>
+        </div>
+        <div class="col">
+            <main>
+                <section>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nobis alias totam accusantium neque fugit!
+                        <aside>hello</aside>
+                        <aside>hello</aside>
+                    </p>
+                </section>
+                <section>
+                    <p>
+                        Minima modi explicabo, cupiditate debitis porro perspiciatis eaque voluptatum voluptatem quasi recusandae maxime aliquid atque.
+                        <aside>hello</aside>
+                        <aside>hello</aside>
+                    </p>
+                </section>
+                <section>
+                    <p>
+                        Veniam mollitia numquam dolores consectetur modi, voluptatem harum vero tempora, unde iste ab quam recusandae.
+                        <aside>hello</aside>
+                        <aside>hello</aside>
+                    </p>
+                </section>
+            </main>
+        </div>
+        <div class="col">
+            <header>
+                <h4>
+                    <span>Vizag</span>
+                    <nav>
+                        <ul>
+                            <li><a href="http://">click</a></li>
+                            <li><a href="http://">click</a></li>
+                            <li><a href="http://">click</a></li>
+                        </ul>
+                    </nav>
+                </h4>
+            </header>
+        <main>
+            <section>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nobis alias totam accusantium neque fugit!
+                    <aside>hello</aside>
+                    <aside>hello</aside>
+                </p>
+            </section>
+            <section>
+                <p>
+                    Minima modi explicabo, cupiditate debitis porro perspiciatis eaque voluptatum voluptatem quasi recusandae maxime aliquid atque.
+                    <aside>hello</aside>
+                    <aside>hello</aside>
+                </p>
+            </section>
+            <section>
+                <p>
+                    Veniam mollitia numquam dolores consectetur modi, voluptatem harum vero tempora, unde iste ab quam recusandae.
+                    <aside>hello</aside>
+                    <aside>hello</aside>
+                </p>
+            </section>
+        </main>
+        <footer>
+            <p></p>
+            <ul>
+                <li><a href="http://">click1</a></li>
+                <li><a href="http://">click2</a></li>
+            </ul>
+        </footer>
+        </div>
+    </div>
+    <div class="bg-green">
+        <center><h2 id="input">Input</h2></center>
+    </div>
+    <form action="" method="post">
+
+        <div class="row bg-blue">
+            <div class="col"><input type="text" name="username" placeholder="username"></div>
+            <div class="col"><input type="number" name="num"></div>
+            <div class="col"><input type="date" name="date"></div>
+            <div class="col"><input type="time" name="time"></div>
+            <div class="col"><input type="password" name="pas"></div>
+        </div>
+        <div class="row bg-blue">
+            <div class="col"><input type="range" name="range"></div>
+            <div class="col"><input type="color" name="color"></div>
+            <div class="col"><input type="search" name="search"></div>
+            <div class="col"><input type="email" name="email"></div>
+            <div class="col"><input type="file"name="file"></div>
+        </div>
+        <div class="row bg-blue">
+            <div class="col"><input type="checkbox" name="mtech">mtech <input type="checkbox" name="ms">ms <input type="checkbox" name="upse">upse </div>
+            <div class="col"><input type="radio" name="grad">btech <input type="radio" name="grad">bsc <input type="radio"  name="grad">bcom </div>
+            <div class="col">
+                <select name="selction" id="">
+                    <options value="op1" name="op1">op1</options>
+                    <options value="op2" name="op2">op2</options>
+                    <options value="op3" name="op3">op3</options>
+                    <options value="op4" name="op4">op4</options>
+                    <options value="op5" name="op5">op5</options>
+                    <options value="op6" name="op6">op6</options>
+                    <options value="op7" name="op7">op7</options>
+                    <options value="op8" name="op8">op8</options>
+                </select>
+            </div>
+            <div class="col"><input type="text"></div>
+            <div class="col"><input type="submit"></div>
+        </div>
+    </form>
+</div>
+</body>
+</html>
